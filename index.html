@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="icon" href="http://pde34wjt4.bkt.clouddn.com/399461b8c646d191044dd7b97a6035f.png">
+	<link rel="stylesheet" href="./stylesheets/index.css">
+	<link rel="stylesheet" href="./stylesheets/resume.css">
+	<link rel="stylesheet" href="https://at.alicdn.com/t/font_904671_unwi98yx0h9.css">
+	<script src="https://at.alicdn.com/t/font_904671_v3opoia5h.js"></script>
+	<title>蔡华鹏Cain</title>
+</head>
+
+<body>
+	<div class="page-wrapper clear-fix">
+		<aside>
+			<a href="#" class="myname">Cain's Resume</a>
+			<div class="menu">
+				<div class="menubox">
+					<div class="menuinner"></div>
+				</div>
+			</div>
+			<footer>
+				<ul class="nav">
+					<li><a href="#" class="selected nav-item">个人 &nbsp&nbsp<small class="eng-small">About Me</small></a></li>
+					<li><a href="#" class="nav-item">项目 &nbsp&nbsp<small class="eng-small">project</small></a></li>
+					<li><a href="#" class="nav-item">技能  &nbsp&nbsp<small class="eng-small">Technology Stack</small></a></li>
+					<li><a href="#" class="nav-item">联系  &nbsp&nbsp<small class="eng-small">Contact</small></a></li>
+				</ul>
+				<div id="footer">
+					<div class="logo">
+						<a href="#" target="_blank" class="r-mail r-icon"></a>
+						<a href="https://www.jianshu.com/u/19c209552d44" target="_blank" class="r-blog r-icon"></a>
+						<a href="https://github.com/CHPAQC" target="_blank" class="r-github r-icon"></a>
+						<a href="#" target="_blank" class="r-weibo r-icon"></a>
+					</div>
+					<p class="source">
+						Open source:<a href="#" target="_blank">GitHub</a>
+						<br>
+						<span class="right">© copyright CAIN, 2018</span>
+					</p>
+				</div>
+			</footer>
+		</aside>
+
+		<!-- 1. index : About Me Begin -->
+		<div id="resume-index" class="content visible">
+			<div class="container" style="margin:0;padding:0;width:100%;">
+				<header>
+					<img width="175" height="175" style="border-radius:50%;" src="http://pde34wjt4.bkt.clouddn.com/this.jpg">
+					<h1>蔡华鹏</h1>
+					<p>前端于我而言，是理性与感性的完美结合，逻辑的精密搭配设计，
+						<br>创造的过程让我对前端有深刻的喜爱
+					</p>
+					<p>
+						<span class='highlight important'>获得证书</span>
+						台湾学习期间获得
+						<strong>SOLID WORKS</strong>证书
+					</p>
+					<p>
+						<span class='highlight important'>意向职位</span>
+						<strong>前端开发</strong> 并对接触后端有较强兴趣
+					</p>
+					<p><strong>思维灵活发散</strong>，<strong>强大的自我驱动能力</strong>
+						<br>在独立项目开发过程中体现出优秀的<strong>新技术学习</strong>、<strong>问题分析解决能力。</strong>
+					</p>
+					<p>寻找<strong>技术驱动</strong>，<strong>成长空间</strong>用激情与成果证明快速成为团队中流砥柱，nothing is impossible.
+					</p>
+				</header>
+			</div>
+			<div class="main">
+
+			</div>
+		</div>
+		<!-- 1. index : About Me End -->
+
+		<!-- 2. Portfolio Begin -->
+		<div id="resume-portfolio" class="content">
+			<div class="container" style="margin:0;padding:0;width:100%;">
+				<h1 class="title">project</h1>
+			</div>
+			<div class="main">
+				<ul class="cbp_tmtimeline">
+					<li>
+						<div class="cbp_tmlabel">
+							<h2 id="coderpad">微信小程序———鹏城翻译</h2>
+							<time>2018</time>
+							<img src="http://pde34wjt4.bkt.clouddn.com/%E5%B0%8F%E7%A8%8B%E5%BA%8F.jpg">
+							<ul>
+								<li>
+									鹏城翻译是一款翻译语言的小工具，在移动端使用，可以再语言页面选择所需翻译的语种，并且翻译过后会在历史页面有遗留，而且点击历史记录的所需翻译会跳转到翻译页面翻译当前语种，方便下次查找，整个工具主要是根据小程序技术文档来写的。
+								</li>
+								<li class="intro-highlight">
+									查看效果可以在微信小程序处搜索鹏城翻译，或者扫描小程序码
+								</li>
+								<li>
+									技术： 百度api + iconfont + JavaScript + Promise + md5加密 + WXML + WXSS + wx.request + wx.showToast + wx.switchTab								</li>
+								<li class="intro-highlight">
+									这次项目作为深入实践，遇到不少问题，细节分析请移步： <a class="intro-link" target="_blank" href="https://www.jianshu.com/p/397ea54cd17f">个人博客</a>
+								</li>
+								<li>
+									在这个项目过程中，由于没有后台，且需要一个翻译api，所以最后选择了百度翻译api，在这个过程中我看了百度翻译api使用文档，其中需要用到md5加密，然后就是在项目中，比较关键的一点是无论在语言页面还是历史页面都需要有一个缓存的数据，然后就用到了wx.setStorageSync、wx.getStorageSync这两个方法。
+								</li>
+								<li class="skill">
+									<span><b>JS</b></span>
+									<a href="https://developers.weixin.qq.com/miniprogram/introduction/index.html?t=18110719" target="_blank">
+										<span>
+											<svg class="r-icon" aria-hidden="true">
+					       						<use xlink:href="#r-weixinxiaochengxu"></use>
+											</svg>
+										</span>				
+									</a>
+									<a href="https://webpack.github.io/" target="_blank">
+										<span>
+										    <svg class="r-icon" aria-hidden="true">
+											    <use xlink:href="#r-webpack"></use>
+											</svg>
+										</span>
+									</a>
+									<a href="https://jquery.com//" target="_blank">
+										<span>
+										    <svg class="r-icon" aria-hidden="true">
+											    <use xlink:href="#r-jQuery"></use>
+											</svg>
+										</span>
+									</a>
+									<span class="link"><a target="_blank" href="http://pde34wjt4.bkt.clouddn.com/%E5%B0%8F%E7%A8%8B%E5%BA%8F3.jpg">Try it</a></span>
+									<span class="link"><a target="_blank" href="https://github.com/CHPAQC/WeChatApple-translate">Github</a></span>
+									<span class="link"><a target="_blank" href="http://pde34wjt4.bkt.clouddn.com/%E5%B0%8F%E7%A8%8B%E5%BA%8F3.jpg">移动端请扫码</a></span>
+								</li>
+							</ul>
+						</div>
+						<div class="cbp_tmlabel">
+							<h2 id="byemess">Vue.js搭建CNode社区</h2>
+							<time>2018</time>
+							<img src="http://pde34wjt4.bkt.clouddn.com/conde.jpg">
+							<ul>
+								<li>
+									这是用Vue框架搭建的一个CNode社区，用到的接口也是CNode社区提供的一个API，在项目中可以看到每个人的主题，分为全部、精华、分享、问答等等，可以查看主题文章及各种回复和作者介绍，如果查看作者还可以看到作者的创建主题和回复主题，在其他页面也可以返回到主菜单。
+								</li>
+								<li class="intro-highlight">
+									请用pc端进入
+								</li>
+								<li>
+									技术： Vue.js + Promise + jquery + webpack + npm + vue-­cli + vue-router + es6
+								</li>
+								<li class="intro-highlight">
+									项目更多介绍+问题+解决方案请移步： <a class="intro-link" href="https://www.jianshu.com/p/215485937a6b">个人博客</a>
+								</li>
+								<li class="intro-highlight">
+									上手Vue过程中做了什么：
+									<a class="intro-link" href="https://www.jianshu.com/p/670e5172f51f">
+										我的Vue.js入门小书
+									</a>
+								</li>
+								<li>
+									在项目过程中通过Vue-router实现路由切换功能，使用v-for实现了数据的遍历，用router-view来控制页面显示，因为其中有一个页面（Article组件）点击链接之后，页面的url只有参数发生变化，导致页面不会跳转，最后用了watch方法来监听路由，才解决这个bug。
+								</li>
+								<li class="skill">
+									<span><b>JS</b></span>
+									<a href="https://webpack.github.io/" target="_blank">
+										<span>
+										    <svg class="r-icon" aria-hidden="true">
+											    <use xlink:href="#r-webpack"></use>
+											</svg>
+										</span>
+									</a>
+									<a href="https://jquery.com/" target="_blank">
+										<span>
+										    <svg class="r-icon" aria-hidden="true">
+											    <use xlink:href="#r-jQuery"></use>
+											</svg>
+										</span>
+									</a>
+									<a href="https://cn.vuejs.org/" target="_blank">
+										<span>
+										    <svg class="r-icon" aria-hidden="true">
+											    <use xlink:href="#r-Vue"></use>
+											</svg>
+										</span>
+									</a>
+									<a href="https://www.npmjs.com/" target="_blank">
+										<span>
+										    <svg class="r-icon" aria-hidden="true">
+											    <use xlink:href="#r-npm"></use>
+											</svg>
+										</span>
+									</a>
+									<span class="link"><a target="_blank" href="https://chpaqc.github.io/Vue---cnode/.">Try it</a></span>
+									<span class="link"><a target="_blank" href="https://github.com/CHPAQC/Vue---cnode">Github</a></span>
+								</li>
+							</ul>
+						</div>
+						<div class="cbp_tmlabel">
+							<h2 id="webpackdemo">Cain版网易云音乐</h2>
+							<time>2018</time>
+							<img src="http://pde34wjt4.bkt.clouddn.com/%E7%BD%91%E6%98%93%E4%BA%91.jpg">
+							<ul>
+								<li>
+									这个项目是用jQuery实现的仿网易云音乐，有播放歌曲、切换、暂停、搜索等功能，PC 端歌曲上传、删除、修改等功能。使用 jQuery、MVC，以及七牛、和自己用json作为数据库实现。使用vConsole进行调试。
+								</li>
+								<li>
+									技术：MVC、Observer设计模式、jQuery、响应式布局 、iconfont、svg、七牛&json作为数据库
+								</li>
+								<li>
+								  项目中，因为需要一个后台储存歌曲，所以我想到自己写json配合七牛充当后台，用文件名充当接口获取数据，然后渲染。在css过程中遇到margin合并问题，还学会了一个新的办法（noCollapse）来解决，在搜索页面用到promise，通过filter返回数组中的一个子集，最后在遍历返回子集渲染成所需要的数据放在页面上。
+								</li>
+								<li class="skill">
+									<span><b>JS</b></span>
+									<a href="https://jquery.com/" target="_blank">
+										<span>
+										    <svg class="r-icon" aria-hidden="true">
+											    <use xlink:href="#r-jQuery"></use>
+											</svg>
+										</span>
+									</a>
+									<a href="https://daneden.github.io/animate.css/" target="_blank">
+										<span>
+											<svg class="r-icon" aria-hidden="true">
+												<use xlink:href="#r-CSS"></use>
+											</svg>
+										</span>
+									</a>
+									<span class="link">
+										<a target="_blank" href="https://chpaqc.github.io/NetEase-music/">
+										Try it
+										</a>
+									</span>
+									<span class="link">
+										<a target="_blank" href="https://github.com/CHPAQC/NetEase-music">
+										Github
+										</a>
+									</span>
+									<span class="link">
+										<a target="_blank" href="http://pde34wjt4.bkt.clouddn.com/%E7%BD%91%E6%98%93%E4%BA%91%E4%BA%8C%E7%BB%B4%E7%A0%81.png">
+										  移动端请扫码
+										</a>
+									</span>
+								</li>
+							</ul>
+						</div>
+						<div class="cbp_tmlabel">
+							<h2 id="musicrecom">RookieMusic---菜鸟音乐</h2>
+							<time>2018</time>
+							<img src="http://pde34wjt4.bkt.clouddn.com/%E8%8F%9C%E9%B8%9F%E9%9F%B3%E4%B9%90.png">
+							<ul>
+								<li>
+									简单介绍：他是一个响应式随机播放的音乐平台，可以选取歌曲种类进行歌曲播放，每个种类都包含许多歌曲，有暂停、播放、上一曲、下一曲等功能，在一首歌曲播完后会自动播放下一曲，并且在进度条上还可以调节歌曲进度。
+								</li>
+								<li class="intro-highlight">
+									请用pc端进入
+								</li>
+								<li>
+									技术：jQuery + 响应式 + iconfont + Animate.css + 自定义事件 + 模块化 + JS插件
+								</li>
+								<li>
+									在项目中为了让代码更加具有可读性，我将js分成两个模块来写，为了两个模块可以传递参数，我用到了自定义事件，然后对这个事件进行监听，达到所需效果。最后在歌词显示中还用到了JS插件配合Animate.css。
+								</li>
+								<li class="skill">
+									<span><b>JS</b></span>
+									<a href="https://jquery.com/" target="_blank">
+										<span>
+										    <svg class="r-icon" aria-hidden="true">
+											    <use xlink:href="#r-jQuery"></use>
+											</svg>
+										</span>
+									</a>
+									<a href="https://daneden.github.io/animate.css/" target="_blank">
+										<span>
+											<svg class="r-icon" aria-hidden="true">
+												<use xlink:href="#r-CSS"></use>
+											</svg>
+										</span>
+									</a>
+									<span class="link">
+										<a target="_blank" href="http://js.jirengu.com/jugowehile">
+						    			Try it
+										</a>
+									</span>
+									<span class="link">
+										<a target="_blank" href="https://github.com/CHPAQC/RookieMusic">
+										Github
+										</a>
+									</span>
+								</li>
+							</ul>
+						</div>
+						<div class="cbp_tmlabel">
+								<h2 id="musicrecom">豆瓣电影————移动端</h2>
+								<time>2018</time>
+								<img src="http://pde34wjt4.bkt.clouddn.com/%E8%B1%86%E7%93%A3%E7%94%B5%E5%BD%B1.jpg">
+								<ul>
+									<li>
+										写这个项目是我第一次接触到了模块化这个词，于是用jQuery以模块化结构写了这个豆瓣电影项目，项目接口是用到豆瓣电影提供的API，在页面中可以查看豆瓣中评分最高的电影，和北美高票房电影，并且还具有搜索电影功能。
+									</li>
+									<li class="intro-highlight">
+										请用移动端进入
+									</li>
+									<li>
+										技术：jQuery + 模块化 + iconfont + Animate + AJAX
+									</li>
+									<li>
+										这个项目从最开始我并没有用到模块化，就像平时一样简单的绑定dom，但在快要写完时听到了模块化这个词，然后便尝试着简单的用模块的方式去封装，于是把项目分成三个模块去敲，与之前相比真的提高了许多可读性与复用性。
+									</li>
+									<li class="skill">
+										<span><b>JS</b></span>
+										<a href="https://jquery.com/" target="_blank">
+											<span>
+												<svg class="r-icon" aria-hidden="true">
+													<use xlink:href="#r-jQuery"></use>
+												</svg>
+											</span>
+										</a>
+										<a href="https://daneden.github.io/animate.css/" target="_blank">
+											<span>
+												<svg class="r-icon" aria-hidden="true">
+													<use xlink:href="#r-CSS"></use>
+												</svg>
+											</span>
+										</a>
+										<span class="link">
+											<a target="_blank" href="https://chpaqc.github.io/Watercress-film/">
+											Try it
+											</a>
+										</span>
+										<span class="link">
+											<a target="_blank" href="https://github.com/CHPAQC/Watercress-film">
+											Github
+											</a>
+										</span>
+										<span class="link">
+											<a target="_blank" href="http://pde34wjt4.bkt.clouddn.com/%E8%B1%86%E7%93%A3%E7%94%B5%E5%BD%B1.png">
+											  移动端请扫码
+											</a>
+										</span>
+									</li>
+								</ul>
+							</div>
+							<div class="cbp_tmlabel">
+									<h2 id="musicrecom">MyMusic</h2>
+									<time>2018</time>
+									<img src="http://pde34wjt4.bkt.clouddn.com/MyMusic.png">
+									<ul>
+										<li>
+											简单介绍：这是我学了原生JS后写的第一个项目，项目有暂停、播放、上一首、下一首功能，在进度条可以看到歌曲进度，且可以调节。（由于时间问题，并没有做下拉列表和歌词显示）
+										</li>
+										<li class="intro-highlight">
+											请用pc端进入
+										</li>
+										<li>
+											技术：html + css + iconfont + JavaScript + xhr
+										</li>
+										<li>
+											这个项目是我在学JS时，尝试着用原生JS来绑定DOM元素，达到想要的需求。然后自己用json文件来充当后台，用xhr获取文件接口返回数据再由JS来渲染到页面。
+										</li>
+										<li class="skill">
+											<span><b>JS</b></span>
+											<a href="https://daneden.github.io/animate.css/" target="_blank">
+												<span>
+													<svg class="r-icon" aria-hidden="true">
+														<use xlink:href="#r-CSS"></use>
+													</svg>
+												</span>
+											</a>
+											<span class="link">
+												<a target="_blank" href="https://chpaqc.github.io/music/">
+												Try it
+												</a>
+											</span>
+											<span class="link">
+												<a target="_blank" href="https://github.com/CHPAQC/music">
+												Github
+												</a>
+											</span>
+										</li>
+									</ul>
+								</div>
+								<div class="cbp_tmlabel">
+									<h2 id="musicrecom">Carousel——回味童年</h2>
+									<time>2018</time>
+									<img src="http://pde34wjt4.bkt.clouddn.com/%E6%B5%B7%E8%B4%BC%E7%8E%8B.png">
+									<ul>
+										<li>
+											简单介绍：项目是我初中最爱看的动漫（海贼王）做的一个轮播图，可以自动播放或者点击上下页，甚至可以点击图片对应的button，点击后显示相应图片。
+										</li>
+										<li>
+											技术：html + css + JavaScript + prototype
+										</li>
+										<li>
+											在轮播图中用到了原型链，将方法绑定在prototype上，封装在函数中，最后通过new一个函数去调用
+										</li>
+										<li class="skill">
+											<span><b>JS</b></span>
+											<span class="link">
+												<a target="_blank" href="https://chpaqc.github.io/Carousel/">
+												Try it
+												</a>
+											</span>
+											<span class="link">
+												<a target="_blank" href="https://github.com/CHPAQC/Carousel">
+												Github
+												</a>
+											</span>
+										</li>
+									</ul>
+								</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 2. Portfolio End -->
+
+		<!-- 3. Skill Begin -->
+		<div id="resume-skill" class="content">
+			<div class="container" style="margin:0;padding:0;width:100%;">
+				<h1 class="title">Skill</h1>
+
+				<!-- Des Content Begin -->
+				<div class="description">
+					<ul class="des-chunk">
+						<li>
+							熟练掌握HTML(5)和常用CSS(3)，具有
+							<span class='highlight emphasize'>像素级</span> 还原设计稿的能力。具有
+							<span class='highlight emphasize'>平均水准之上</span> 的审美，追求设计的优雅。
+						</li>
+						<li>
+							熟练掌握原生Javascript，掌握重要概念如：
+							<span class='highlight emphasize'>原型</span>，
+							<span class='highlight emphasize'>闭包</span>，
+							<span class='highlight emphasize'>作用域链</span>，
+							<span class='highlight emphasize'>面向对象</span>，
+							<span class='highlight emphasize'>异步流程控制</span>等。能够根据面向对象思想利用JS/jQuery
+							<span class='highlight emphasize'>封装</span> 常用插件。 熟练使用
+							<span class='highlight emphasize'>ES6及ES7</span> 部分新特性。
+						</li>
+						<li>
+							熟悉Vue框架的使用，<span class='highlight important'>理解重要概念</span>如：生命周期，<span class='highlight important'>vuex</span>，
+							<span class='highlight important'>vue-router</span>，
+							<span class='highlight important'>filters</span>，并有
+							<span class='highlight important'>相关项目踩坑（发现问题）脱坑（解决问题）的经验。</span>
+						</li>
+						<li>
+							熟悉小程序开发文档，<span class='highlight important'>理解重要概念</span>如：<span class='highlight important'>WXML、WXSS、wx.request、wx.showToast、wx.switchTab</span>，并有
+							<span class='highlight important'>相关项目踩坑（发现问题）脱坑（解决问题）的经验。</span>
+						</li>
+					</ul>
+
+					<ul class="des-chunk">
+
+						<li>
+							熟悉<span class='highlight emphasize'>HTTP协议</span>及浏览器<span class='highlight emphasize'>渲染原理</span>，了解前端
+							<span class='highlight emphasize'>性能优化</span>策略。
+						</li>
+						<li>
+							熟悉<span class='highlight emphasize'>Npm & Git </span>，能够使用Node.js搭配Express进行基本后台开发。
+						</li>
+						<li>
+							熟悉<span class='highlight emphasize'>CMD&AMD</span>机制，熟悉<span class='highlight emphasize'>Webpack打包，</span>优化手段。
+						</li>
+						<li>
+							<span class='highlight important'>学习能力优秀，</span>拥有总结书写<span class='highlight emphasize'><a href="https://www.jianshu.com/u/19c209552d44">技术博客(点击进入)</a></span>的习惯。
+						</li>
+						<li>
+							能够使用<span class='highlight emphasize'>flex、float+清除浮动布局，</span>能够用多种方式进行水平居中、垂直居中。
+						</li>
+					</ul>
+				</div>
+				<!-- Des Content End -->
+
+				<!--Skill Tag Group Begin-->
+				<div class="pp-tableCell" style="height:100%">
+					<div class="tag-panel">
+						<div class="tag expert">HTML5</div>
+						<div class="tag expert">CSS3</div>
+						<div class="tag familiar">Cookie&session</div>
+						<div class="tag expert">JavaScript</div>
+					</div>
+					<div class="tag-panel">
+						<div class="tag expert">Vue.js</div>
+						<div class="tag expert">jQuery</div>
+						<div class="tag expert">webpack</div>
+						<div class="tag expert">Bootstrap</div>
+					</div>
+					<div class="tag-panel">
+						<div class="tag expert">AJAX</div>
+						<div class="tag expert">HTTP</div>
+						<div class="tag familiar">Node</div>
+						<div class="tag familiar">Express</div>
+					</div>
+					<div class="tag-panel">
+						<div class="tag expert">Promise</div>
+					</div>
+				</div>
+				<!--Skill Tag Group End-->
+			</div>
+		</div>
+		<!-- 3. Skill End -->
+
+		<!-- 4. Contact Begin -->
+		<div id="contact" class="content">
+			<div class="main">
+				<ul class="wrapper">
+					<li class="contact-card">
+						<div class="icon">
+							<svg class="r-icon" aria-hidden="true">
+								<use xlink:href="#r-blog"></use>
+							</svg>
+						</div>
+						<a href="https://www.jianshu.com/u/19c209552d44" target="_blank">
+						    <span>blog</span>
+					    </a>
+					</li>
+					<li class="contact-card qqmail">
+						<div class="icon">
+							<svg class="r-icon" aria-hidden="true">
+								<use xlink:href="#r-qq"></use>
+							</svg>
+						</div>
+						<span>1061081534@qq.com</span>
+					</li>
+					<li class="contact-card mobile">
+						<div class="icon">
+							<svg class="r-icon" aria-hidden="true">
+								<use xlink:href="#r-phone"></use>
+							</svg>
+						</div>
+						<span>15121502205</span>
+					</li>
+					<li class="contact-card wechat">
+						<div class="icon">
+							<svg class="r-icon" aria-hidden="true">
+								<use xlink:href="#r-xiangmulan-weixinhao"></use>
+							</svg>
+						</div>
+						<img src="http://pde34wjt4.bkt.clouddn.com/15b16002a019699cb64ba92895008d0.png" alt="">
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 4. Contact End -->
+
+		
+	</div>
+	<script src='./javascript/index.js'></script>
+	<!-- <script>
+		aa.onclick = function(){
+			window.print()
+		}
+	</script> -->
+</body>
+
+</html>
